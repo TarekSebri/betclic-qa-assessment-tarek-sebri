@@ -99,7 +99,7 @@
 - **Severity:** Medium  
 - **Evidence:** The step provides no country selector or “+33” hint. Invalid entries show a generic message *(S49)*.
 
-![S49 — Phone number validation message (example)](images/s49_redacted.jpg)
+![S49 — Phone number validation message (example)](images/s49.jpg)
 
 - **Why it matters:** If the product is France-only, this is fine but should be explicit. If international users are expected (or if the app is used by travelers), lack of country code support is a UX friction and can block onboarding.
 - **Suggested improvement:** Either (a) explicitly state “French mobile number required” and show an example format, or (b) add a country picker / E.164 formatting with clear validation and error guidance.
