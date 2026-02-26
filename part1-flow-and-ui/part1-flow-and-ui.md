@@ -126,16 +126,3 @@
 
 ---
 
-## 3) 5‑minute walkthrough video — suggested structure (script)
-
-> This is **not** extra testing. It’s a short 5‑minute screen recording (with voice-over) to explain the flow you observed, show 1–2 branches, and highlight your top risks (UX/compliance).
-
-**0:00–0:20** — Intro: scope, what was tested, what was skipped (ID and address verification).  
-**0:20–2:30** — Happy path walkthrough: sign up → names → DOB → birthplace → username → password → email/phone → final consent screen.  
-**2:30–3:30** — Show 2 alternative branches: underage DOB block, pseudonym already taken, and a validation example (email/phone).  
-**3:30–4:40** — Highlight top 3 issues:  
-1) bundled legal consent toggle (High)  
-2) birthplace country free-text/UNKNOWN (High)  
-3) password policy validation can be bypassed (High)  
-**4:40–5:00** — What I would automate first (smoke checks): age gate, consent gating, core field validations, “ID later” path.
-
